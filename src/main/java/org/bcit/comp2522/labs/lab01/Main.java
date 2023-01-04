@@ -10,7 +10,7 @@ package org.bcit.comp2522.labs.lab01;
 public class Main {
 
   /**
-   * Main method, runs the program.*
+   * Main method, runs the program.
    * Prints out two lines
    *
    * @param args unused.
