@@ -14,12 +14,15 @@ public class Window extends PApplet {
     size(500, 500);
   }
 
+  /**
+   * draw method draws out a house with two windows and a door.
+   */
   public void draw() {
     ellipse(mouseX, mouseY, 50, 50);
     rect(125, 250, 250, 300);
     triangle(125, 250, 375, 250, 250, 100);
     rect(150, 300, 100, 150);
-    rect(300,400,50,100);
+    rect(300, 400, 50, 100);
     circle(325, 300, 45);
   }
 
